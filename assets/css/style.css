@@ -1,0 +1,62 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #0937a7;
+    color: #fff;
+    background-image: url('../img/pink-and-purple-full-sized.jpg');
+    background-size: cover;
+    font-family: urbane, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.body-wrapper {
+    background-color: rgba(5, 4, 130, .6);
+    background: radial-gradient(at 60% 40%, rgba(9,55,167,0) 0%, rgba(5,4,130,1) 100%);
+    height: 100%;
+}
+
+.header .container {
+    /*background-color: rgba(9, 55, 167, .6);
+    background-color: rgba(5, 4, 130, .6);*/
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+.sc-widgets {
+    padding-top: 50px;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.description {
+    padding-top: 50px;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 50px;
+}
+.icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 80px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.icons a:hover {
+    opacity: .5;
+}
